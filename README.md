@@ -21,25 +21,41 @@
 ```text
 .
 ├── README.md
-├── campus_skyline_variants/        # 学院建筑 3D 立体剪影天际线高清视觉合集 (2730x1535)
+├── campus_skyline_photo_reconstructed/  # 【最新】真实照片三维浮雕重构版天际线 (2730x1535)
+│   ├── 00_reconstructed_variants_overview.jpg
+│   ├── 01_user_panorama_golden_relief.jpg
+│   ├── 02_bilateral_gala_stage.jpg
+│   ├── 03_deep_perspective_tiered.jpg
+│   ├── 04_golden_night_illuminated.jpg
+│   ├── 05_high_relief_papercraft_emboss.jpg
+│   └── README.md
+├── campus_skyline_variants/            # 学院建筑几何三维白模天际线合集 (2730x1535)
 │   ├── 00_all_variants_overview.jpg
 │   ├── 01_variant_bilateral_gala.jpg / .png
-│   ├── 02_variant_panoramic_skyline.jpg / .png
-│   ├── 03_variant_monumental_center.jpg / .png
-│   ├── 04_variant_physical_sandtable.jpg / .png
-│   ├── 05_variant_golden_luminous_night.jpg / .png
-│   ├── 06_variant_minimalist_papercraft.jpg / .png
-│   ├── 07_variant_anniversary_grandeur.jpg / .png
-│   └── 08_variant_gold_foil_emboss.jpg / .png
-├── scripts/                        # 3D 白模生成、光影追踪与渲染管线源码
-└── covers/                         # 经典机械教材超清封面与立体样机库
+│   └── ...
+├── scripts/                            # 光影追踪、法线浮雕重构与舞台渲染源码
+└── covers/                             # 经典机械教材超清封面与立体样机库
 ```
 
 ---
 
-## 🏛️ 学院建筑立体剪影与庆典天际线 (Campus Skyline Variants)
+## 🏛️ 真实照片三维浮雕重构版天际线 (Photo-Reconstructed Skyline Collection)
 
-基于学院历史与现代建筑素材，重构为类似参考图（3D白模剪影、金色褶皱舞台墙、地平线光带、镜面反光地板）的 8 款 2.5K 超高清视觉（详见 [campus_skyline_variants/README.md](campus_skyline_variants/README.md)）：
+基于真实校区建筑摄影素材与用户提供的连贯天际线拼接版（`1829D43A869E2327B32B2A7CBC7AC64F.jpg`），采用 **Photometric Surface Normal Relief Reconstruction** 全新管线，**100% 保留真实摄影门窗网格、立柱、大台阶与遮阳百叶等标志性特征**，彻底解决前序版本“太平面、缺乏层次”的问题（详见 [campus_skyline_photo_reconstructed/README.md](campus_skyline_photo_reconstructed/README.md)）：
+
+| Variant | 构图与视觉主题 | 核心特色与辨识度 | 预览与下载 |
+| :--- | :--- | :--- | :--- |
+| **Variant 01** | **用户全景重构 - 香槟立体浮雕** | 忠实还原用户上传全景序列：材料馆 $\to$ 基础实验馆大台阶 $\to$ 链传动所百叶 $\to$ 汽车拖拉机学院旧址圆角楼 | [01_user_panorama_golden_relief.jpg](campus_skyline_photo_reconstructed/01_user_panorama_golden_relief.jpg) |
+| **Variant 02** | **盛典双侧合围舞台天际线** | 致敬参考图经典对称剧场展翼，左翼历史底蕴+右翼现代科研，中央开阔舞台空间与璀璨星芒 | [02_bilateral_gala_stage.jpg](campus_skyline_photo_reconstructed/02_bilateral_gala_stage.jpg) |
+| **Variant 03** | **纵深三层透视与工科烟囱全景** | 建立远景（工科基地高耸烟囱+机械系旧址）、中景（链传动所+实训中心）、近景前锋（基础实验馆大台阶），多层接触阴影 | [03_deep_perspective_tiered.jpg](campus_skyline_photo_reconstructed/03_deep_perspective_tiered.jpg) |
+| **Variant 04** | **盛典夜景发光视窗与探照光束** | 真实摄影窗扇注入温暖琥珀金内透发光，地面 4 组柔和舞台探照追光束斜掠过浮雕表面 | [04_golden_night_illuminated.jpg](campus_skyline_photo_reconstructed/04_golden_night_illuminated.jpg) |
+| **Variant 05** | **学院标志性高浮雕与烫金折边** | 巍峨长卷汇聚五大标志性地标，山墙与立柱折边流光溢彩金属烫金高光，折纸纸雕立体触感 | [05_high_relief_papercraft_emboss.jpg](campus_skyline_photo_reconstructed/05_high_relief_papercraft_emboss.jpg) |
+
+---
+
+## 🏛️ 学院建筑几何立体剪影天际线 (Campus Skyline Procedural Variants)
+
+基于学院历史与现代建筑素材，重构为类似参考图（3D几何白模剪影、金色褶皱舞台墙、地平线光带、镜面反光地板）的 8 款 2.5K 超高清视觉（详见 [campus_skyline_variants/README.md](campus_skyline_variants/README.md)）：
 
 | Variant | 风格与构图主题 | 核心特色 | 预览与下载 |
 | :--- | :--- | :--- | :--- |
@@ -51,4 +67,5 @@
 | **Variant 6** | **极致极简纯净纸雕浮雕构图** | 纯净极简象牙白折纸雕塑质感，洗练几何轮廓，大面积留白的高级感 | [06_variant_minimalist_papercraft.jpg](campus_skyline_variants/06_variant_minimalist_papercraft.jpg) |
 | **Variant 7** | **华章庆典金色光晕与全景大师构图** | 中心金色同心光弧与放射辉光，融合所有校区地标的全要素庆典视觉 | [07_variant_anniversary_grandeur.jpg](campus_skyline_variants/07_variant_anniversary_grandeur.jpg) |
 | **Variant 8** | **烫金立体浮雕与金属微光天际线** | 烫金立体精工微光线框，边缘金箔流光勾勒，高品质浮雕质感 | [08_variant_gold_foil_emboss.jpg](campus_skyline_variants/08_variant_gold_foil_emboss.jpg) |
+
 
