@@ -21,19 +21,34 @@
 ```text
 .
 ├── README.md
-└── covers/
-    ├── 68f40fdc20cab493d8f58fbd12cbfa05_机械工程图学习题集_第四版_front_hd.jpg         (4350x3000)
-    ├── 68f40fdc20cab493d8f58fbd12cbfa05_机械工程图学习题集_第四版_full_jacket_hd.jpg   (8850x3000)
-    ├── 68f40fdc20cab493d8f58fbd12cbfa05_机械工程图学习题集_第四版_mockup.jpg          (1701x1000)
-    ├── b7c0b1271bf72e462537eca0b2393a4a_机械工程图学与习题集_第五版_合影_hd.jpg         (1300x1100)
-    ├── b7c0b1271bf72e462537eca0b2393a4a_机械工程图学_第五版_front_hd.jpg               (2107x3000)
-    ├── b7c0b1271bf72e462537eca0b2393a4a_机械工程图学_第五版_full_jacket_hd.jpg         (4477x3000)
-    ├── b7c0b1271bf72e462537eca0b2393a4a_机械工程图学_第五版_mockup.jpg                (1000x1000)
-    ├── b7c0b1271bf72e462537eca0b2393a4a_机械工程图学习题集_第五版_front_hd.jpg         (2084x3000)
-    ├── b7c0b1271bf72e462537eca0b2393a4a_机械工程图学习题集_第五版_full_jacket_hd.jpg   (4394x3000)
-    ├── b7c0b1271bf72e462537eca0b2393a4a_机械工程图学习题集_第五版_mockup.jpg          (1000x1000)
-    ├── a26dcf56e082ce1762e9cc11b0d5670a_机械制造技术基础_第2版_cmpedu_official.jpg    (564x800)
-    ├── a26dcf56e082ce1762e9cc11b0d5670a_机械制造技术基础_第2版_restored_hd.jpg        (1692x2400)
-    ├── 85df3b6e93cf3b5144eacc883578d671_机械设计_修订版_restored_hd_2400x2400.jpg     (2400x2400)
-    └── e104b54ec521cbcf75c29557ef71e7eb_机械制造技术基础_第一版_restored_hd_1668x2400.jpg (1668x2400)
+├── campus_skyline_variants/        # 学院建筑 3D 立体剪影天际线高清视觉合集 (2730x1535)
+│   ├── 00_all_variants_overview.jpg
+│   ├── 01_variant_bilateral_gala.jpg / .png
+│   ├── 02_variant_panoramic_skyline.jpg / .png
+│   ├── 03_variant_monumental_center.jpg / .png
+│   ├── 04_variant_physical_sandtable.jpg / .png
+│   ├── 05_variant_golden_luminous_night.jpg / .png
+│   ├── 06_variant_minimalist_papercraft.jpg / .png
+│   ├── 07_variant_anniversary_grandeur.jpg / .png
+│   └── 08_variant_gold_foil_emboss.jpg / .png
+├── scripts/                        # 3D 白模生成、光影追踪与渲染管线源码
+└── covers/                         # 经典机械教材超清封面与立体样机库
 ```
+
+---
+
+## 🏛️ 学院建筑立体剪影与庆典天际线 (Campus Skyline Variants)
+
+基于学院历史与现代建筑素材，重构为类似参考图（3D白模剪影、金色褶皱舞台墙、地平线光带、镜面反光地板）的 8 款 2.5K 超高清视觉（详见 [campus_skyline_variants/README.md](campus_skyline_variants/README.md)）：
+
+| Variant | 风格与构图主题 | 核心特色 | 预览与下载 |
+| :--- | :--- | :--- | :--- |
+| **Variant 1** | **经典双侧对流庆典展翼构图** | 忠实于参考图双侧展翼，左侧历史底蕴，右侧现代工科，中央开阔舞台 | [01_variant_bilateral_gala.jpg](campus_skyline_variants/01_variant_bilateral_gala.jpg) |
+| **Variant 2** | **全景连贯天际线横卷构图** | 历史至现代建筑全景长卷，由三教门廊形成中央人文过渡，连绵起伏 | [02_variant_panoramic_skyline.jpg](campus_skyline_variants/02_variant_panoramic_skyline.jpg) |
+| **Variant 3** | **殿堂式主楼向心聚焦构图** | 基础实验馆大台阶居中放大 1.35x，天幕光束聚焦，两侧建筑对称拱卫 | [03_variant_monumental_center.jpg](campus_skyline_variants/03_variant_monumental_center.jpg) |
+| **Variant 4** | **多层次景深立体沙盘展台构图** | 近/中/远三重物理景深层级，微缩模型物理柔和投影与空间层次感 | [04_variant_physical_sandtable.jpg](campus_skyline_variants/04_variant_physical_sandtable.jpg) |
+| **Variant 5** | **鎏金夜景泛光与发光视窗庆典版** | 温暖金黄内透发光视窗、建筑后方 4 组冲天舞台追光光束与绚烂星芒 | [05_variant_golden_luminous_night.jpg](campus_skyline_variants/05_variant_golden_luminous_night.jpg) |
+| **Variant 6** | **极致极简纯净纸雕浮雕构图** | 纯净极简象牙白折纸雕塑质感，洗练几何轮廓，大面积留白的高级感 | [06_variant_minimalist_papercraft.jpg](campus_skyline_variants/06_variant_minimalist_papercraft.jpg) |
+| **Variant 7** | **华章庆典金色光晕与全景大师构图** | 中心金色同心光弧与放射辉光，融合所有校区地标的全要素庆典视觉 | [07_variant_anniversary_grandeur.jpg](campus_skyline_variants/07_variant_anniversary_grandeur.jpg) |
+| **Variant 8** | **烫金立体浮雕与金属微光天际线** | 烫金立体精工微光线框，边缘金箔流光勾勒，高品质浮雕质感 | [08_variant_gold_foil_emboss.jpg](campus_skyline_variants/08_variant_gold_foil_emboss.jpg) |
+
